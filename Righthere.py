@@ -10,7 +10,7 @@ load_dotenv()
 client = genai.Client(api_key=os.getenv("apikey"))
 
 # กำหนด path ของโมเดลที่เทรนมาแล้ว
-model_path = os.getenv("path")
+model_path = os.getenv("model_path")
 
 # map ตัวเลขเป็น label อารมณ์
 label_map = {
@@ -64,6 +64,6 @@ response = client.models.generate_content(
 
 print(f"Emotion: {predicted_emotion}")
 # แสดงผลลัพธ์จาก Gemini API บน console
-# print("*" * 50)
-# print(response.text)
-# print("*" * 50)
+print("*" * 50)
+print(response.text)
+print("*" * 50)
