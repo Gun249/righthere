@@ -69,10 +69,36 @@ async def get_advice(data: Advice):
     # ใช้ label_map เพื่อแปลง index ที่ทำนายได้เป็นข้อความอารมณ์
     predicted_emotion = label_map.get(predicted_index, "Unknown")
 
+    prompt = f"""
+                    ### Role: System (AI Therapist)
+                    You are an empathetic AI therapist trained to analyze users' diary entries. Your goal is to help users understand their emotions through diary analysis and provide compassionate feedback.
+
+                    ### Role: User (Diary Writer)
+                    Diary Entry:
+                    "{diary_text}"
+
+                    ### Detected Emotion:
+                    {predicted_emotion}
+
+                    ### Task:
+                    - **Analyze** the user's emotions based on the diary entry.
+                    - **Provide** a structured response including:
+                        1. **Suggestion**: A supportive and positive message.
+                        2. **Emotional Reflection**: Summarize the user's emotions to help them understand their feelings.
+                        3. **Mood**: Assign a one-word emotional label.
+                        4. **Keyword Extraction**: Identify key topics from the diary entry.
+
+                    ### Response Format:
+                    - Suggestion: <Your response>
+                    - Emotional Reflection: <Your response>
+                    - Mood: <Your response>
+                    - Keywords: <Your response>
+                    """
+
     # เรียกใช้ Gemini API เพื่อ generate content โดยรวมข้อความ diary และอารมณ์ที่ทำนายได้เข้าไปใน request
     response = client.models.generate_content(
         model="tunedModels/advicedataset500-s3qpyzbc1d00",
-        contents=f"{diary_text} {predicted_emotion}",
+        contents=prompt
     )
 
     # แสดงผลลัพธ์ทาง console สำหรับตรวจสอบค่าอารมณ์ที่ทำนายและคำตอบจาก Gemini API
