@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+transformers
+torch
+safetensors
+numpy
+python-dotenv
+google-genai
