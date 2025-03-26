@@ -99,4 +99,4 @@ async def get_advice(data: Advice):
 
 @app.get("/")
 async def home():
-    return {"message": "Welcome to AI Therapist API"}
+    return {"message": "Welcome to AI API"}
