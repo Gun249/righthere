@@ -6,6 +6,7 @@ import torch
 import os
 from dotenv import load_dotenv
 from pydantic import BaseModel
+import uvicorn 
 
 # โหลด environment variables
 load_dotenv()
@@ -77,7 +78,7 @@ async def get_advice(data: Advice):
     ### Task:
     - **Analyze** the user's emotions based on the diary entry.
     - **Provide** a structured response including:
-        1. **Suggestion**: A supportive and positive message.
+        1. **Suggestion**: A supportive and positive message and get advice.
         2. **Emotional Reflection**: Summarize the user's emotions to help them understand their feelings.
         3. **Mood**: Assign a one-word emotional label.
         4. **Keyword Extraction**: Identify key topics from the diary entry.
@@ -100,3 +101,6 @@ async def get_advice(data: Advice):
 @app.get("/")
 async def home():
     return {"message": "Welcome to AI API"}
+
+
+uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("PORT", "8000")))

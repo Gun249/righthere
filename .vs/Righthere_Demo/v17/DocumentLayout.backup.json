@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\views\\diarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:views\\diarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\views\\summarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:views\\summarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\views\\summarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:views\\summarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\views\\diarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:views\\diarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\services\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:services\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\services\\diaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:services\\diaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\platforms\\android\\androidmanifest.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\res\\xml\\network_security_config.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:res\\xml\\network_security_config.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\righthere_demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:righthere_demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|c:\\users\\dewdu\\onedrive\\desktop\\work\\righthere_demo\\righthere_demo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFBD06A5-D384-DEB7-A18D-6EDFF0C7866B}|Righthere_Demo.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SummaryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\SummaryPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SummaryPage.xaml",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\SummaryPage.xaml",
+              "RelativeToolTip": "Views\\SummaryPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-26T09:41:53.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:39:01.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-26T02:38:59.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiaryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\DiaryPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DiaryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\DiaryPage.xaml.cs",
+              "RelativeToolTip": "Views\\DiaryPage.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:35:06.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "API.cs",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Services\\API.cs",
+              "RelativeDocumentMoniker": "Services\\API.cs",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Services\\API.cs",
+              "RelativeToolTip": "Services\\API.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAUwFQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:15:07.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SummaryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\SummaryPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SummaryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\SummaryPage.xaml.cs",
+              "RelativeToolTip": "Views\\SummaryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:43:52.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiaryService.cs",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Services\\DiaryService.cs",
+              "RelativeDocumentMoniker": "Services\\DiaryService.cs",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Services\\DiaryService.cs",
+              "RelativeToolTip": "Services\\DiaryService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:48:23.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiaryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\DiaryPage.xaml",
+              "RelativeDocumentMoniker": "Views\\DiaryPage.xaml",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\DiaryPage.xaml",
+              "RelativeToolTip": "Views\\DiaryPage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-26T01:43:56.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Righthere_Demo.csproj",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Righthere_Demo.csproj",
+              "RelativeDocumentMoniker": "Righthere_Demo.csproj",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Righthere_Demo.csproj",
+              "RelativeToolTip": "Righthere_Demo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-26T09:14:57.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-26T09:56:36.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "network_security_config.xml",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\res\\xml\\network_security_config.xml",
+              "RelativeDocumentMoniker": "res\\xml\\network_security_config.xml",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\res\\xml\\network_security_config.xml",
+              "RelativeToolTip": "res\\xml\\network_security_config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-26T09:15:24.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\dewdu\\OneDrive\\Desktop\\Work\\RightHere_Demo\\Righthere_Demo\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-26T09:16:34.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Xamarin.Android.Aapt2.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Aapt2.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Aapt2.targets",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAawNUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-26T09:16:02.342Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
