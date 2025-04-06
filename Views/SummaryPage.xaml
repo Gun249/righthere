@@ -1,109 +1,121 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Righthere_Demo.Views.SummaryPage"
-             Title="SummaryPage"
-             BackgroundColor="#FFF6E5">
+<ContentPage
+    x:Class="Righthere_Demo.Views.SummaryPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="SummaryPage"
+    BackgroundColor="#FFF6E5">
     <VerticalStackLayout>
-        
-        <Label Text="Summary"
-               TextColor="White"
-               Background="#2a614e"
-               FontSize="24"
-               FontAttributes="Bold"
-               HorizontalTextAlignment="Center"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               HeightRequest="70"
-               WidthRequest="420"ห
-               Padding="15"/>
-               
-        <!-- Mood Description -->
-        <Label x:Name="Emotiontext"
-                   FontSize="14"
-                   TextColor="Black"
-                   HorizontalTextAlignment="Center"
-                   Margin="0,10,0,20" 
-                   HeightRequest="100"
-                   WidthRequest="360"/>
 
-        <!-- Image Section -->
-        <Image x:Name="EmotionImage"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               HeightRequest="150"
-               WidthRequest="150"
-               Aspect="AspectFill"/>
-        
-        <!-- Placeholder for Graphs -->
-        <HorizontalStackLayout HorizontalOptions="Center"
-                                   Spacing="20">
+        <Label
+            Padding="15"
+            Background="#2a614e"
+            FontAttributes="Bold"
+            FontSize="24"
+            HeightRequest="70"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            Text="Summary"
+            TextColor="White"
+            VerticalOptions="Center"
+            WidthRequest="420" />
 
-            <Frame BackgroundColor="White"
-                       CornerRadius="15"
-                       Padding="15"
-                       WidthRequest="150"
-                       HeightRequest="120"
-                       HasShadow="True">
+        <!--  Mood Description  -->
+        <Label
+            x:Name="Emotiontext"
+            Margin="0,10,0,20"
+            FontSize="14"
+            HeightRequest="100"
+            HorizontalTextAlignment="Center"
+            TextColor="Black"
+            WidthRequest="360" />
+
+        <!--  Image Section  -->
+        <Image
+            x:Name="EmotionImage"
+            Aspect="AspectFill"
+            HeightRequest="150"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            WidthRequest="150" />
+
+        <!--  Placeholder for Graphs  -->
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+
+            <Frame
+                Padding="15"
+                BackgroundColor="White"
+                CornerRadius="15"
+                HasShadow="True"
+                HeightRequest="120"
+                WidthRequest="150">
                 <VerticalStackLayout>
-                    <Label Text="Keyword"
-                               FontSize="12"
-                               HorizontalTextAlignment="Center"
-                               TextColor="Black"/>
-                    <Label x:Name="Keywordtext"
-                               FontSize="16"
-                               FontAttributes="Bold"
-                               HorizontalTextAlignment="Center"
-                               Margin="0,10,0,0"
-                               TextColor="Black"/>
+                    <Label
+                        FontSize="12"
+                        HorizontalTextAlignment="Center"
+                        Text="Keyword"
+                        TextColor="Black" />
+                    <Label
+                        x:Name="Keywordtext"
+                        Margin="0,10,0,0"
+                        FontAttributes="Bold"
+                        FontSize="16"
+                        HorizontalTextAlignment="Center"
+                        TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
 
-            <Frame BackgroundColor="White"
-                       CornerRadius="15"
-                       Padding="15"
-                       WidthRequest="150"
-                       HeightRequest="120"
-                       HasShadow="True">
+            <Frame
+                Padding="15"
+                BackgroundColor="White"
+                CornerRadius="15"
+                HasShadow="True"
+                HeightRequest="120"
+                WidthRequest="150">
                 <VerticalStackLayout>
-                    <Label Text="Mood"
-                               FontSize="12"
-                               HorizontalTextAlignment="Center"
-                               TextColor="Black"/>  
-                    <Label x:Name ="Moodtex"
-                               FontSize="16"
-                               FontAttributes="Bold"
-                               HorizontalTextAlignment="Center"
-                               Margin="0,10,0,0"
-                               TextColor="Gray"/>
+                    <Label
+                        FontSize="12"
+                        HorizontalTextAlignment="Center"
+                        Text="Mood"
+                        TextColor="Black" />
+                    <Label
+                        x:Name="Moodtex"
+                        Margin="0,10,0,0"
+                        FontAttributes="Bold"
+                        FontSize="16"
+                        HorizontalTextAlignment="Center"
+                        TextColor="Gray" />
                 </VerticalStackLayout>
             </Frame>
 
         </HorizontalStackLayout>
 
-        <!-- Advice Section -->
-        <Label Text="Advice :"
-                   FontSize="14"
-                   FontAttributes="Bold"
-                   TextColor="Black"
-                   Padding="10"
-                   Margin="0,20,0,5"/>
+        <!--  Advice Section  -->
+        <Label
+            Margin="0,20,0,5"
+            Padding="10"
+            FontAttributes="Bold"
+            FontSize="14"
+            Text="Advice :"
+            TextColor="Black" />
 
-        <Label x:Name="Advicetext"
-                   FontSize="14"
-                   TextColor="Black"
-                   Margin="0,0,0,20"
-                   Padding="10"
-                   HorizontalTextAlignment="Center"/>
+        <Label
+            x:Name="Advicetext"
+            Margin="0,0,0,20"
+            Padding="10"
+            FontSize="14"
+            HorizontalTextAlignment="Center"
+            TextColor="Black" />
 
-        <!-- Next Button -->
-        <Button Text="Next ➤"
-                    BackgroundColor="Transparent"
-                    TextColor="Black"
-                    FontSize="16"
-                    HorizontalOptions="Center"
-                    Padding="10"
-                    Margin="0,130,0,20"/>
+        <!--  Next Button  -->
+        <Button
+            Margin="0,130,0,20"
+            Padding="10"
+            BackgroundColor="Transparent"
+            FontSize="16"
+            HorizontalOptions="Center"
+            Text="Next ➤"
+            TextColor="Black" />
 
     </VerticalStackLayout>
 </ContentPage>
