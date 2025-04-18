@@ -14,6 +14,11 @@ namespace Righthere_Demo.Views
             InitializeComponent();
             _diaryService = new DiaryService("");
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            Console.WriteLine("📍 DiaryPage Appeared");
+        }
 
         private async void OnAnalyzeClicked(object sender, EventArgs e)
         {

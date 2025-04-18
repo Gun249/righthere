@@ -110,6 +110,8 @@
         <!--  Next Button  -->
         <Button
             Margin="0,130,0,20"
+            x:Name="NextButton"
+            Clicked="GoMainPage"
             Padding="10"
             BackgroundColor="Transparent"
             FontSize="16"

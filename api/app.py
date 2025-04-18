@@ -92,7 +92,7 @@ async def get_advice(data: Advice):
 
     # เรียกใช้ Gemini API
     response = client.models.generate_content(
-        model="tunedModels/advicedataset500-s3qpyzbc1d00",
+        model="gemini-2.0-flash",
         contents=prompt
     )
 

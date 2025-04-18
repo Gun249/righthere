@@ -10,7 +10,7 @@ namespace Righthere_Demo.Views
         private string keyword;
         private string Emotion;
 
-        public SummaryPage(string mood, string Suggestion,string Keyword,string Emotion)
+        public SummaryPage(string mood, string Suggestion, string Keyword, string Emotion)
         {
             InitializeComponent();
 
@@ -33,5 +33,12 @@ namespace Righthere_Demo.Views
             Keywordtext.Text = this.keyword;
             Emotiontext.Text = this.Emotion;
         }
+        private void GoMainPage(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new MainPage());
+
+        }
+
+
     }
 }

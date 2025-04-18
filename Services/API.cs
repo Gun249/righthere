@@ -18,7 +18,7 @@ namespace Righthere_Demo.Services
         public async Task SendData(string Diary)
         {
             using HttpClient client = new HttpClient();
-            string url = "http://10.0.2.2:5000/getadvice"; // ใช้ 10.0.2.2 ถ้าเป็น Emulator
+            string url = "http://10.0.2.2:8000/getadvice"; // ใช้ 10.0.2.2 ถ้าเป็น Emulator
 
             var data = new { text = Diary }; // API ต้องการ key "text"
 
