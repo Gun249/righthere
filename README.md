@@ -1,58 +1,57 @@
+
 # Righthere - AI-Powered Diary Analysis App
 
-Righthere เป็นแอปพลิเคชัน .NET MAUI ที่ใช้ปัญญาประดิษฐ์ในการวิเคราะห์ไดอารี่และให้คำแนะนำด้านจิตใจ โดยผสมผสานเทคโนโลยี Machine Learning และ AI สำหรับการตรวจจับอารมณ์และการให้คำปรึกษา
+Righthere is a .NET MAUI application that leverages artificial intelligence to analyze diary entries and provide mental health advice. It combines machine learning and AI technologies for emotion detection and therapeutic feedback.
 
 ## 🤖 AI Features
 
 ### 1. Emotion Detection
-- **โมเดล**: Custom fine-tuned model บน Hugging Face Hub
+- **Model**: Custom fine-tuned model on Hugging Face Hub
 - **Model Repository**: [`Gun555/Righthere`](https://huggingface.co/Gun555/Righthere)
-- **Base Model**: Pre-trained transformer สำหรับการจำแนกอารมณ์
-- **ความสามารถ**: ตรวจจับอารมณ์ 6 ประเภท
-  - 😢 Sadness (ความเศร้า)
-  - 😊 Joy (ความสุข)
-  - ❤️ Love (ความรัก)
-  - 😠 Anger (ความโกรธ)
-  - 😨 Fear (ความกลัว)
-  - 😲 Surprise (ความประหลาดใจ)
-
+- **Base Model**: Pre-trained transformer for emotion classification
+- **Capabilities**: Detects 6 emotion types
+  - 😢 Sadness
+  - 😊 Joy
+  - ❤️ Love
+  - 😠 Anger
+  - 😨 Fear
+  - 😲 Surprise
 
 ### 2. AI Therapist
 - **AI Engine**: Google Gemini 2.0 Flash
-- **บทบาท**: AI Therapist ที่ให้คำปรึกษาและช่วยวิเคราะห์อารมณ์
-- **การตอบสนอง**:
-  - **Suggestion**: คำแนะนำเชิงบวกและข้อเสนอแนะ
-  - **Emotional Reflection**: สรุปและวิเคราะห์อารมณ์ของผู้ใช้
-  - **Mood**: การกำหนดอารมณ์หลักในคำเดียว
-  - **Keywords**: การสกัดคำสำคัญจากเนื้อหาไดอารี่
-
+- **Role**: AI Therapist for emotional analysis and advice
+- **Response Structure**:
+  - **Suggestion**: Positive and supportive advice
+  - **Emotional Reflection**: Summarizes and analyzes user emotions
+  - **Mood**: Assigns a primary emotion in one word
+  - **Keywords**: Extracts key topics from the diary entry
 
 ## 🚀 Setup Instructions
 
 ### Prerequisites
 - .NET 9.0 SDK
-- Python 3.8+ (สำหรับ API backend)
+- Python 3.8+ (for API backend)
 - Google AI Studio API Key
-- Hugging Face Token (สำหรับการเข้าถึง model)
-- Internet connection (สำหรับดาวน์โหลด model จาก Hugging Face Hub)
+- Hugging Face Token (for model access)
+- Internet connection (for downloading model from Hugging Face Hub)
 
 ### 1. AI Model Setup
-โมเดลจะถูกดาวน์โหลดอัตโนมัติจาก Hugging Face Hub ในครั้งแรกที่รันแอป:
+The model will be automatically downloaded from Hugging Face Hub on first run:
 - **Model Repository**: https://huggingface.co/Gun555/Righthere
-- **Auto-download**: โมเดลจะถูกแคชไว้ใน local หลังจากดาวน์โหลดครั้งแรก
-- **No manual download required**: ไม่ต้องดาวน์โหลดไฟล์ model เอง
+- **Auto-download**: Model will be cached locally after the first download
+- **No manual download required**
 
 ### 2. Environment Configuration
-สร้างไฟล์ `.env` ในโฟเดอร์ api/ พร้อมตัวแปรต่อไปนี้:
+Create a `.env` file in the `api/` folder with the following variables:
 
 ```env
-# Google Gemini API Key (รับจาก Google AI Studio)
+# Google Gemini API Key (get from Google AI Studio)
 apikey=your_google_ai_studio_api_key_here
 
-# เส้นทางโฟเดอร์โมเดล (ถ้าใช้ local model)
+# Model path (if using a local model)
 MODEL_PATH=path/to/your/model/folder
 
-# Hugging Face Token (สำหรับการเข้าถึง model Gun555/Righthere)
+# Hugging Face Token (for accessing Gun555/Righthere model)
 HuggingFaceToken=your_huggingface_token_here
 
 # Server Port (optional)
@@ -72,12 +71,14 @@ User Input (Diary) → Hugging Face Model Hub → Emotion Detection → AI Analy
 - **Input**: Thai/English text
 - **Output**: Probability distribution over 6 emotion classes
 - **Performance**: Optimized for diary/personal text analysis
+
+### 5. Install Python Dependencies
 ```bash
 cd api
 pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+### 6. Run the Application
 
 #### Start AI API Backend:
 ```bash
@@ -90,7 +91,7 @@ python app.py
 ### `/getadvice` (POST)
 ```json
 {
-  "text": "เนื้อหาไดอารี่ของผู้ใช้"
+  "text": "Your diary entry text"
 }
 ```
 
@@ -98,7 +99,7 @@ python app.py
 ```json
 {
   "emotion": "joy",
-  "advice": "คำแนะนำจาก AI พร้อมการวิเคราะห์อารมณ์"
+  "advice": "AI-generated advice and emotional analysis"
 }
 ```
 
@@ -129,7 +130,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
 # Predict emotion
-text = "วันนี้ฉันรู้สึกดีมาก"
+text = "I feel great today!"
 inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=128)
 outputs = model(**inputs)
 predicted_class = torch.argmax(outputs.logits, dim=-1)
